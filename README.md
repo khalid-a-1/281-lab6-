@@ -35,8 +35,8 @@ last lab. In particular, we want:
 
 * A FSM that requires more than four states, and so requires more than two flip flops.
 
-* With n flip flops, a total of 2n patterns representing states are possible. But if our FSM has 2n􀀀1 < S <
-2n states, we end up with rows in our NextState circuit truth table filled with Don’t Care X entries. Our
+* With n flip flops, a total of 2^n patterns representing states are possible. But if our FSM has 2^n-1 < S <
+2^n states, we end up with rows in our NextState circuit truth table filled with Don’t Care X entries. Our
 design needs to properly handle such Don’t Care entries.
 
 * Learn about a simpler, but less capable flip flop – the D flip-flop. The advantage of the D flip flow is that
